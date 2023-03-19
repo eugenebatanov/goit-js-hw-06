@@ -13,23 +13,3 @@ function checkInputValid(event) {
     input.classList.remove("valid");
   }
 }
-
-// console.log("6" == 6);
-
-// ===================
-// const inputEl = document.querySelector('input');
-// inputEl.addEventListener('blur', onInputBlur);
-// function onInputBlur(event) {
-//     const total = event.currentTarget.value.length
-//     if (Number(inputEl.dataset.length) !== total) {
-//         inputEl.classList.add('invalid');
-//         return;
-//     }
-//     inputEl.classList.add('valid');
-// ======================
-
-// input.addEventListener("blur", (event) =>
-//   event.currentTarget.value === ""
-//     ? (output.textContent = "Anonymous")
-//     : (output.textContent = event.currentTarget.value)
-// );

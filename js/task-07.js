@@ -1,7 +1,9 @@
-const span = document.getElementById("text");
+const span = document.getElementById('text');
 
-const input = document.getElementById("font-size-control");
+const input = document.getElementById('font-size-control');
 
-input.addEventListener("click", (e) => {
-  span.style.fontSize = e.currentTarget.value + "px";
+span.style.fontSize = input.value + 'px';
+
+input.addEventListener('click', e => {
+  span.style.fontSize = e.currentTarget.value + 'px';
 });
